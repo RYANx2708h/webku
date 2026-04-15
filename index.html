@@ -36,7 +36,23 @@
             color: #555;
         }
     </style>
-</head>
+</head>.berita {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+    opacity: 0;
+    transform: translateY(20px);
+    animation: muncul 0.8s ease forwards;
+}
+
+@keyframes muncul {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 <body>
 
 <div class="header">
